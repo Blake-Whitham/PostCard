@@ -1,0 +1,39 @@
+.header {
+  height: 8vh;
+  color: white;
+  font-weight: 600;
+}
+
+.contWidth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonContainer {
+  height: 8vh;
+}
+
+#title {
+  font-size: 2em;
+  cursor: pointer;
+}
+#title:hover {
+  color: #955ad4;
+}
+
+#button {
+  background-color: rgba(201, 201, 201, 0.137);
+  backdrop-filter: blur(1vw);
+  width: 10vw;
+  margin-left: 3vw;
+  min-width: 100px;
+  min-height: 35px;
+}
+
+#avatar {
+  margin-left: 3vw;
+  width: 3vw;
+  height:3vw;
+  border-radius: 3vw;
+}
